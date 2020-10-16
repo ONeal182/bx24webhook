@@ -64,7 +64,8 @@ class Bx24WbHook
 			'fields' => array(
 				'TITLE' => 'Заказ с сайта № ' . $this->arFields['ID'],
 				'COMPANY_ID'=> $this->company_id,
-				'CONTACT_ID' => $id_cont
+				'CONTACT_ID' => $id_cont,
+				'COMMENTS'=> $this->arFields['USER_DESCRIPTION']
 
 
 
