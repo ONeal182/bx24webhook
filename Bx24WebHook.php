@@ -29,9 +29,10 @@ class Bx24WbHook
 						"VALUE" => $phone, 
 						"VALUE_TYPE" => "WORK"
 					)
-				)
+				),
+				'EMAIL' => $email
 			),
-			'EMAIL' => $email,
+			
 			'params' => array("REGISTER_SONET_EVENT" => "Y")
 		));
 
