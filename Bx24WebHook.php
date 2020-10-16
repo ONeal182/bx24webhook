@@ -24,13 +24,17 @@ class Bx24WbHook
 			'fields' => array(
         // 'TITLE' => 'Название формы', 
 				'NAME' => $name,
+				'EMAIL' => array(
+					array(
+						'VALUE' => $email,
+						'VALUE_TYPE' => 'WORK'
+					)),
 				'PHONE' => array(
 					array(
 						"VALUE" => $phone, 
 						"VALUE_TYPE" => "WORK"
 					)
-				),
-				'EMAIL' => $email
+				)
 			),
 			
 			'params' => array("REGISTER_SONET_EVENT" => "Y")
